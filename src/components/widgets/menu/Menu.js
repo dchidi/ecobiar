@@ -51,7 +51,8 @@ const Menu = () => {
           </ul>
         </li>
         <li className={style.menuItem}>
-          <Link to="/composter_household" className={style.item}>
+          {/* to ="/composter_household" */}
+          <Link to="" className={style.item}>
             Home Composter
           </Link>
         </li>
