@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import Controller from "./pages/Controller";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      {/* home page */}
+      <Route path="/" element={<Controller page="home" />} exact />
+      <Route path="/home" element={<Controller page="home" />} />
+      {/* Composter page */}
+      <Route
+        path="/composter_household"
+        element={<Controller page="composter_household" />}
+      />
+      <Route
+        path="/composter_commercial"
+        element={<Controller page="composter_commercial" />}
+      />
+
+      {/* page not found */}
+      <Route path="*" element={<Controller page="page_not_found" />} />
+    </Routes>
   );
 }
 

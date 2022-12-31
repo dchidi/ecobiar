@@ -1,0 +1,129 @@
+.top {
+  margin-top: 7%;
+}
+.title,
+.title1 {
+  text-align: center;
+  color: #0c6eba;
+  font-size: 23px;
+  margin: 2% 0;
+}
+.title {
+  color: #333;
+}
+.p {
+  font-size: 18px;
+  padding: 0 10%;
+  color: #444;
+}
+.mt {
+  margin-top: 3%;
+}
+.mb {
+  margin-bottom: 3%;
+}
+.textCenter {
+  text-align: center;
+}
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col4 {
+  width: calc(100% / 4);
+  padding: 2% 0;
+}
+.img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: middle center;
+  margin: 2% 0;
+}
+.img2 {
+  width: 50%;
+  height: 300px;
+  object-fit: fill;
+  margin: 3% 0;
+}
+.bgImg1 {
+  background-image: url(https://www.bestforage.com/wp-content/uploads/2017/04/good-soil-1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 300px;
+  background-position: center center;
+  margin: 2% 0;
+}
+.captionTitle {
+  font-size: 35px;
+  margin-bottom: 18px;
+}
+.caption {
+  color: #fff;
+  width: 500px;
+  height: 160px;
+  text-align: center;
+  padding: 4% 20px;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.caption p {
+  font-size: 16px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 767px) {
+  .top {
+    margin-top: 23%;
+  }
+  .title {
+    margin-top: 5%;
+  }
+  .imgIcon {
+    width: 50px;
+  }
+  .iconText {
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+  .bgImg1 {
+    background-size: 100%;
+    background-repeat: repeat;
+    height: auto;
+    background-position: initial;
+    margin: 3% 0 8% 0;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .caption {
+    width: 70%;
+    height: 280px;
+    margin-top: 20px;
+  }
+  .caption p {
+    font-size: 18px;
+  }
+  .img {
+    height: auto;
+  }
+  .img2 {
+    width: 80%;
+    height: 180px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

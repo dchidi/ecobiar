@@ -1,0 +1,76 @@
+.footer,
+.footer h3 {
+  background-color: #777777;
+  color: #f9f9f9;
+}
+.footerLink {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0;
+}
+.copyright {
+  padding: 20px;
+  text-align: center;
+  background-color: #5b5b5b;
+  color: #ccc;
+  letter-spacing: 0.05em;
+  font-size: 14px;
+}
+.footerUl {
+  list-style: none;
+  padding-top: 20px;
+}
+.footerUl li {
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(136, 135, 135);
+}
+
+.menu {
+  text-decoration: none;
+  color: #f9f9f9;
+}
+
+.line {
+  border-bottom: 4px solid #999;
+  width: 50px;
+  padding-bottom: 10px;
+}
+.address,
+.phone,
+.email {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.address {
+  padding-top: 25px;
+  max-width: 250px;
+  color: #fff;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 767px) {
+  .footerLink {
+    flex-direction: column;
+    padding: 30px 5%;
+  }
+  .footer {
+    position: relative;
+  }
+  .contact,
+  .productCategories {
+    margin-top: 30px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
