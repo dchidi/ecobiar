@@ -1,6 +1,7 @@
 import Footer from "../../components/layout/Footer";
 import { MoreButton } from "../../components/widgets/button/Buttons";
 import Menu from "../../components/widgets/menu/Menu";
+import Product from "../../components/widgets/product/Product";
 import style from "./Commercial.module.css";
 
 const Commercial = () => {
@@ -108,7 +109,7 @@ const Commercial = () => {
         automatic and involves temperature-controlled processing of the waste.
         This organic waste fertilizer machine could be fed continuously.
       </p>
-      {/* product list */}
+      <Product />
       <img
         src="https://togohb.com/wp-content/uploads/2022/04/composting-banner.jpg"
         alt="composting banner"

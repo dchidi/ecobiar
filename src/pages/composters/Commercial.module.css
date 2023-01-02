@@ -62,23 +62,29 @@
 .caption {
   color: #fff;
   width: 500px;
-  height: 160px;
+  height: 180px;
   text-align: center;
   padding: 4% 20px;
   margin-top: 10px;
   background-color: rgba(0, 0, 0, 0.2);
 }
 .caption p {
-  font-size: 16px;
+  font-size: 17px;
 }
-
+.imgIcon {
+  width: 85px;
+}
+.iconText {
+  font-size: 14px;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 767px) {
   .top {
     margin-top: 23%;
   }
-  .title {
+  .title1 {
     margin-top: 5%;
+    padding: 10px 8%;
   }
   .imgIcon {
     width: 50px;
