@@ -17,6 +17,8 @@ function App() {
         element={<Controller page="composter_commercial" />}
       />
 
+      <Route path="/contact" element={<Controller page="contact" />} />
+
       {/* page not found */}
       <Route path="*" element={<Controller page="page_not_found" />} />
     </Routes>

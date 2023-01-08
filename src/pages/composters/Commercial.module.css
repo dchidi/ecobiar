@@ -22,6 +22,9 @@
 .mb {
   margin-bottom: 3%;
 }
+.my2 {
+  margin: 3% 0;
+}
 .textCenter {
   text-align: center;
 }
@@ -30,10 +33,18 @@
   justify-content: center;
   align-items: center;
 }
+.row {
+  display: flex;
+}
 .col4 {
   width: calc(100% / 4);
   padding: 2% 0;
 }
+.col6 {
+  width: calc(100% / 2);
+  padding: 2% 0;
+}
+
 .img {
   width: 100%;
   height: 400px;
@@ -62,7 +73,7 @@
 .caption {
   color: #fff;
   width: 500px;
-  height: 180px;
+  height: 160px;
   text-align: center;
   padding: 4% 20px;
   margin-top: 10px;
@@ -76,6 +87,11 @@
 }
 .iconText {
   font-size: 14px;
+}
+.contactImg {
+  padding: 0 0 0 15%;
+  /* object-fit: contain; */
+  width: 350px;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 767px) {
@@ -115,6 +131,19 @@
   .img2 {
     width: 80%;
     height: 180px;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .col6 {
+    width: 100%;
+  }
+  .contactImg {
+    padding: 0;
+    width: 100%;
+  }
+  .mtXs5 {
+    margin-top: 10%;
   }
 }
 

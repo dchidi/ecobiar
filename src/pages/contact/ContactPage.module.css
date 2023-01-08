@@ -1,0 +1,77 @@
+.p {
+  font-size: 18px;
+  padding: 0 10%;
+  color: #444;
+}
+.mb {
+  margin-bottom: 3%;
+}
+.row {
+  display: flex;
+}
+.col6 {
+  width: calc(100% / 2);
+  padding: 2% 0;
+}
+.contactImg {
+  padding: 0 0 0 15%;
+  /* object-fit: contain; */
+  width: 350px;
+}
+.img {
+  width: 100%;
+  /* height: 400px; */
+  /* object-fit: cover; */
+  /* object-position: middle center; */
+  margin: 2% 0;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 301px;
+  max-width: 100%;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 301px;
+  width: 600px;
+}
+.map {
+  margin: 5% 0 0 5%;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 767px) {
+  .top {
+    margin-top: 14%;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .col6 {
+    width: 100%;
+  }
+  .map {
+    margin: 0;
+    order: 1;
+  }
+  .form {
+    order: 2;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

@@ -1,8 +1,9 @@
 import Footer from "../../components/layout/Footer";
 import { MoreButton } from "../../components/widgets/button/Buttons";
 import Menu from "../../components/widgets/menu/Menu";
-import Product from "../../components/widgets/product/Product";
+import Product from "../../components/product/Product";
 import style from "./Commercial.module.css";
+import Contact from "../../components/contact/Contact";
 
 const Commercial = () => {
   return (
@@ -160,7 +161,23 @@ const Commercial = () => {
         </p>
       </div>
       {/* video */}
-      {/* contact */}
+      <div className={`${style.p} ${style.my2} ${style.mtXs5}`}>
+        <h2>INFORMATION REQUEST </h2>
+        <p>
+          Please fill in the following form, we will respond to your request in
+          24 hours.
+        </p>
+      </div>
+      <div className={`${style.row} ${style.p} ${style.mb}`}>
+        <div className={`${style.col6}`}>
+          <Contact />
+        </div>
+        <img
+          src="https://togohb.com/wp-content/uploads/2021/09/Organic-Waste-Disposal-Solutions-1.jpg"
+          alt="make enquiry"
+          className={`${style.contactImg} ${style.col6}`}
+        />
+      </div>
       <Footer />
     </>
   );

@@ -67,7 +67,7 @@ const Menu = () => {
           </Link>
         </li>
         <li className={style.menuItem}>
-          <Link to="" className={style.item}>
+          <Link to="/contact" className={style.item}>
             Contact Us
           </Link>
         </li>
