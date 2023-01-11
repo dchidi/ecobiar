@@ -4,6 +4,7 @@ import style from "./Controller.module.css";
 import Household from "./composters/Household";
 import Commercial from "./composters/Commercial";
 import ContactPage from "./contact/ContactPage";
+import About from "./about/About";
 
 const Controller = (props) => {
   const page = {
@@ -11,6 +12,7 @@ const Controller = (props) => {
     composter_household: <Household />,
     composter_commercial: <Commercial />,
     contact: <ContactPage />,
+    about: <About />,
     page_not_found: "page not found",
   };
 

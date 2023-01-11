@@ -62,7 +62,7 @@ const Menu = () => {
           </Link>
         </li>
         <li className={style.menuItem}>
-          <Link to="" className={style.item}>
+          <Link to="/about" className={style.item}>
             About Us
           </Link>
         </li>

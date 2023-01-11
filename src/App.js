@@ -19,6 +19,8 @@ function App() {
 
       <Route path="/contact" element={<Controller page="contact" />} />
 
+      <Route path="/about" element={<Controller page="about" />} />
+
       {/* page not found */}
       <Route path="*" element={<Controller page="page_not_found" />} />
     </Routes>
